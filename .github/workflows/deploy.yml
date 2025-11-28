@@ -40,7 +40,7 @@ jobs:
       # 4. Generate Native Code (Crucial Step)
       # This creates the 'android' folder and the 'gradlew' script
       - name: Expo Prebuild
-        run: npx expo prebuild --platform android --no-interactive
+        run: npx expo prebuild --platform android
 
       # 5. Make gradlew executable
       # We must point to the folder we just created
